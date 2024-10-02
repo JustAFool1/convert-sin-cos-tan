@@ -341,27 +341,26 @@ int main(){
             cin >> hslpilihanakhir;
             cout << "\n";
             nilaiakhir = ptrcnvrt(&fromsin, hslpilihanakhir, hslnilaix);
-            if (hslpilihjenisx == 1){
-                hslnilaix = to_degree(hslnilaix);
-            }
+            hslnilaix = to_degree(hslnilaix);
             switch (hslpilihanakhir)
             {
             case 1:
-                cout << "sin " << hslnilaix << " = cos " << nilaiakhir << endl;
+                cout << "sin " << hslnilaix << " = cos " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 2:
-                cout << "sin " << hslnilaix << " = tan " << nilaiakhir << endl;
+                cout << "sin " << hslnilaix << " = tan " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 3:
-                cout << "sin " << hslnilaix << " = cosec " << nilaiakhir << endl;
+                cout << "sin " << hslnilaix << " = cosec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 4:
-                cout << "sin " << hslnilaix << " = sec " << nilaiakhir << endl;
+                cout << "sin " << hslnilaix << " = sec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 5:
-                cout << "sin " << hslnilaix << " = cot " << nilaiakhir << endl;
+                cout << "sin " << hslnilaix << " = cot " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             default:
+                cout << "invalid choice\n";
                 break;
             }
             break;
@@ -370,27 +369,28 @@ int main(){
             cin >> hslpilihanakhir;
             cout << "\n";
             nilaiakhir = ptrcnvrt(&fromcos, hslpilihanakhir, hslnilaix);
-            if (hslpilihjenisx == 1){
+            if (hslpilihjenisx == 2){
                 hslnilaix = to_degree(hslnilaix);
             }
             switch (hslpilihanakhir)
             {
             case 1:
-                cout << "cos " << hslnilaix << " = sin " << nilaiakhir << endl;
+                cout << "cos " << hslnilaix << " = sin " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 2:
-                cout << "cos " << hslnilaix << " = tan " << nilaiakhir << endl;
+                cout << "cos " << hslnilaix << " = tan " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 3:
-                cout << "cos " << hslnilaix << " = cosec " << nilaiakhir << endl;
+                cout << "cos " << hslnilaix << " = cosec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 4:
-                cout << "cos " << hslnilaix << " = sec " << nilaiakhir << endl;
+                cout << "cos " << hslnilaix << " = sec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 5:
-                cout << "cos " << hslnilaix << " = cot " << nilaiakhir << endl;
+                cout << "cos " << hslnilaix << " = cot " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             default:
+                cout << "invalid choice\n";
                 break;
             }
             break;
@@ -399,27 +399,28 @@ int main(){
             cin >> hslpilihanakhir;
             cout << "\n";
             nilaiakhir = ptrcnvrt(&fromtan, hslpilihanakhir, hslnilaix);
-            if (hslpilihjenisx == 1){
+            if (hslpilihjenisx == 2){
                 hslnilaix = to_degree(hslnilaix);
             }
             switch (hslpilihanakhir)
             {
             case 1:
-                cout << "tan " << hslnilaix << " = sin " << nilaiakhir << endl;
+                cout << "tan " << hslnilaix << " = sin " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 2:
-                cout << "tan " << hslnilaix << " = cos " << nilaiakhir << endl;
+                cout << "tan " << hslnilaix << " = cos " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 3:
-                cout << "tan " << hslnilaix << " = cosec " << nilaiakhir << endl;
+                cout << "tan " << hslnilaix << " = cosec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 4:
-                cout << "tan " << hslnilaix << " = sec " << nilaiakhir << endl;
+                cout << "tan " << hslnilaix << " = sec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 5:
-                cout << "tan " << hslnilaix << " = cot " << nilaiakhir << endl;
+                cout << "tan " << hslnilaix << " = cot " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             default:
+                cout << "invalid choice\n";
                 break;
             }
             break;
@@ -428,27 +429,28 @@ int main(){
             cin >> hslpilihanakhir;
             cout << "\n";
             nilaiakhir = ptrcnvrt(&fromcosec, hslpilihanakhir, hslnilaix);
-            if (hslpilihjenisx == 1){
+            if (hslpilihjenisx == 2){
                 hslnilaix = to_degree(hslnilaix);
             }
             switch (hslpilihanakhir)
             {
             case 1:
-                cout << "cosec " << hslnilaix << " = sin " << nilaiakhir << endl;
+                cout << "cosec " << hslnilaix << " = sin " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 2 :
-                cout << "cosec " << hslnilaix << " = cos " << nilaiakhir << endl;
+                cout << "cosec " << hslnilaix << " = cos " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 3:
-                cout << "cosec " << hslnilaix << " = tan " << nilaiakhir << endl;
+                cout << "cosec " << hslnilaix << " = tan " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 4:
-                cout << "cosec " << hslnilaix << " = sec " << nilaiakhir << endl;
+                cout << "cosec " << hslnilaix << " = sec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 5:
-                cout << "cosec " << hslnilaix << " = cot " << nilaiakhir << endl;
+                cout << "cosec " << hslnilaix << " = cot " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             default:
+                cout << "invalid choice\n";
                 break;
             }
             break;
@@ -457,27 +459,28 @@ int main(){
             cin >> hslpilihanakhir;
             cout << "\n";
             nilaiakhir = ptrcnvrt(&fromsec, hslpilihanakhir, hslnilaix);
-            if (hslpilihjenisx == 1){
+            if (hslpilihjenisx == 2){
                 hslnilaix = to_degree(hslnilaix);
             }
             switch (hslpilihanakhir)
             {
             case 1:
-                cout << "sec " << hslnilaix << " = sin " << nilaiakhir << endl;
+                cout << "sec " << hslnilaix << " = sin " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 2:
-                cout << "sec " << hslnilaix << " = cos " << nilaiakhir << endl;
+                cout << "sec " << hslnilaix << " = cos " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 3:
-                cout << "sec " << hslnilaix << " = tan " << nilaiakhir << endl;
+                cout << "sec " << hslnilaix << " = tan " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 4:
-                cout << "sec " << hslnilaix << " = cosec " << nilaiakhir << endl;
+                cout << "sec " << hslnilaix << " = cosec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 5:
-                cout << "sec " << hslnilaix << " = cot " << nilaiakhir << endl;
+                cout << "sec " << hslnilaix << " = cot " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             default:
+                cout << "invalid choice\n";
                 break;
             }
             break;
@@ -486,27 +489,28 @@ int main(){
             cin >> hslpilihanakhir;
             cout << "\n";
             nilaiakhir = ptrcnvrt(&fromcot, hslpilihanakhir, hslnilaix);
-            if (hslpilihjenisx == 1){
+            if (hslpilihjenisx == 2){
                 hslnilaix = to_degree(hslnilaix);
             }
             switch (hslpilihanakhir)
             {
             case 1:
-                cout << "cot " << hslnilaix << " = sin " << nilaiakhir << endl;
+                cout << "cot " << hslnilaix << " = sin " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 2:
-                cout << "cot " << hslnilaix << " = cos " << nilaiakhir << endl;
+                cout << "cot " << hslnilaix << " = cos " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 3:
-                cout << "cot " << hslnilaix << " = tan " << nilaiakhir << endl;
+                cout << "cot " << hslnilaix << " = tan " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 4:
-                cout << "cot " << hslnilaix << " = cosec " << nilaiakhir << endl;
+                cout << "cot " << hslnilaix << " = cosec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             case 5:
-                cout << "cot " << hslnilaix << " = sec " << nilaiakhir << endl;
+                cout << "cot " << hslnilaix << " = sec " << nilaiakhir << "(hasil dalam derajat)" << endl;
                 break;
             default:
+                cout << "invalid choice\n";
                 break;
             }
             break;
